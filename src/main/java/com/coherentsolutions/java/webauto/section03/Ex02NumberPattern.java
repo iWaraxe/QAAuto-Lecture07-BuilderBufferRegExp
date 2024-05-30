@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Ex02NumberPattern {
     public static void main(String[] args) {
         String numberPattern = "\\d+";
-        String text = "There are 123 apples in the basket";
+        String text = "There are 456 apples in the 23 basket";
 
         Pattern pattern = Pattern.compile(numberPattern);
         Matcher matcher = pattern.matcher(text);

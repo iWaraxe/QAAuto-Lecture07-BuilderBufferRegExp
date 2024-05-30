@@ -5,5 +5,9 @@ public class Ex03ReplaceAll {
         String text = "To be or not to be, that is the question (c)";
         String replacedAllStr = text.replaceAll("be", "exist");
         System.out.println("Replaced all 'be' with 'exist': " + replacedAllStr);
+
+        String str = "hello world 123";
+        String result = str.replaceAll("\\d", "#");  // "hello world ###"
+        System.out.println(result);
     }
 }

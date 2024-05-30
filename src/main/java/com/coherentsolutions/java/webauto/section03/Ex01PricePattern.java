@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Ex01PricePattern {
     public static void main(String[] args) {
         String pricePattern = "\\d+\\.?\\d{0,2}";
-        String text = "The total cost is 586.50 dollars";
+        String text = "The total cost is 1586.50 dollars";
 
         Pattern pattern = Pattern.compile(pricePattern);
         Matcher matcher = pattern.matcher(text);
